@@ -1,0 +1,1 @@
+ g++ 004.cpp -o 004 `pkg-config --libs --cflags opencv`
