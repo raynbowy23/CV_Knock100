@@ -52,7 +52,7 @@ int main(int argc, const char* argv[])
             S = Max - Min;
 
             // inverse Hue
-            H = fmod((H + 180), 360);
+            H = fmod((H + 270), 360);
 
             // convert HSV to RGB
             C = S;
